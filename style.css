@@ -4,8 +4,6 @@
 body {
     font-family: "Roboto", sans-serif;
     height: 100vh;
-    margin: 0px 80px;
-    padding: 15px;
     background-color: #1F2937;
     color: #f9FAF8;
 }
@@ -34,6 +32,7 @@ button {
 
 /* header section */
 .header {
+    padding: 0px 75px;
     display: flex;
     flex-flow: row;
     justify-content: space-between;
@@ -55,7 +54,7 @@ button {
 
 /* hero text */
 .hero-section {
-    padding: 50px 0px;
+    padding: 50px 75px;
     display: flex;
     flex-flow: row wrap;
     flex-grow: 1;
@@ -94,7 +93,7 @@ button {
 
 /* information section */
     .info-section {
-        padding: 25px 25px;
+        padding: 50px 75px;
         background-color: #f9FAF8;
         color: #1F2937;
     }
@@ -131,7 +130,7 @@ button {
 /* quote section */
 
 .quote-section {
-    padding: 100px 0px;
+    padding: 100px 75px;
     background-color: #E5E7EB;
     color: #1F2937;
     display: flex;
