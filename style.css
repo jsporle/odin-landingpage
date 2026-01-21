@@ -143,3 +143,30 @@ button {
 
     /* fix quote justification sizing*/
 
+/* call to action section */
+
+.call-to-action-section {
+    background-color: #f9FAF8;
+    padding: 50px;
+}
+
+    .cta-card {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 600px;
+        padding: 25px 50px;
+    }
+
+    .cta-card-text {
+        font-weight: 900;
+    }
+
+    .cta-card-subtext {
+        font-size: 80%;
+    }
+
+    .cta-button {
+        border: 1px solid #f9FAF8;
+    }
