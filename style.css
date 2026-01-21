@@ -100,3 +100,33 @@ ul {
         padding: 2px 8px;
     }
 
+/* quote section */
+
+.quote-section {
+    padding: 100px 0px;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+    .quote-body, .quote-attribution {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 600px;
+    }
+
+    .quote-body {
+        font-size: 36px;
+        font-style: italic;
+    }
+
+    .quote-attribution {
+        font-weight: 900;
+        text-align: right;
+    }
+
+    /* fix quote justification sizing*/
+
