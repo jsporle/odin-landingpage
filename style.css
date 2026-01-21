@@ -4,7 +4,7 @@
 body {
     font-family: "Roboto", sans-serif;
     margin: 80px;
-    padding: 0px;
+    padding: 15px;
     background-color: #1F2937;
     color: #f9FAF8;
 }
@@ -57,9 +57,46 @@ ul {
     }
 
     .hero-image {
-        padding: 24px;
+        margin: 24px;
         text-align: center;
         min-width: 300px;
         min-height: 150px;
         background-color: #a3a3a383;
     }
+
+/* information section */
+    .info-section {
+        padding: 25px 25px;
+        background-color: #ffffff;
+        color: #1F2937;
+    }
+
+    .info-title {
+        font-size: 36px;
+        font-weight: 900;
+        text-align: center;
+    }
+
+    .info-table {
+        display: flex;
+        justify-content: space-around;
+        margin: 10px 50px;
+        gap: 16px;
+
+    }
+
+    .info-object-image {
+        display: flex;
+        text-align: center;
+        border: 4px solid #3882f6;
+        border-radius: 4px;
+        min-width: 100px;
+        min-height: 100px;
+    }
+
+    .info-object-text {
+        font-size: 12px;
+        text-align: center;
+        padding: 2px 8px;
+    }
+
