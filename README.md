@@ -14,3 +14,6 @@ the page needs the following elements in this order:
 4. quote section (quote, attribution)
 5. call to action section
 6. footer section
+
+Notes
+Look into naming classes - is it better to name by section (e.g. hero-button) or by type (e.g. button-hero)
