@@ -170,3 +170,11 @@ button {
     .cta-button {
         border: 1px solid #f9FAF8;
     }
+
+/* footer section */
+.footer { 
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
