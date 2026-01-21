@@ -11,9 +11,15 @@ body {
 }
 
 .main {
-    flex-grow: 1;
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
+}
+
+.hero-section, .info-section, .quote-section, .call-to-action-section {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
 }
 
 a {
@@ -40,7 +46,7 @@ button {
 
 /* header section */
 .header {
-    padding: 0px 75px;
+    padding: 0% 8%;
     display: flex;
     flex-flow: row;
     justify-content: space-between;
@@ -62,10 +68,9 @@ button {
 
 /* hero text */
 .hero-section {
-    padding: 50px 75px;
+    padding: 6% 8%;
     display: flex;
     flex-flow: row wrap;
-    flex-grow: 1;
     justify-content: center;
     align-items: center;
 }
@@ -101,7 +106,7 @@ button {
 
 /* information section */
     .info-section {
-        padding: 50px 75px;
+        padding: 6% 8%;
         background-color: #f9FAF8;
         color: #1F2937;
         display: flex;
@@ -119,10 +124,8 @@ button {
     .info-table {
         display: flex;
         flex-wrap: wrap;
-        flex-grow: 1;
-        justify-content: center;
         margin: 10px 50px;
-        gap: 25px;
+        gap: 30px;
     }
 
     .info-object {
@@ -151,7 +154,7 @@ button {
 /* quote section */
 
 .quote-section {
-    padding: 100px 75px;
+    padding: 8% 6%;
     background-color: #E5E7EB;
     color: #1F2937;
     display: flex;
@@ -161,7 +164,7 @@ button {
 }
 
     .quote-container {
-        max-width: 600px;
+        width: 50%;
         display: flex;
         flex-flow: column wrap;
     }
@@ -181,7 +184,7 @@ button {
 
 .call-to-action-section {
     background-color: #f9FAF8;
-    padding: 50px;
+    padding: 3%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -189,6 +192,7 @@ button {
 
     .cta-card {
         display: flex;
+        width: 50%;
         flex-grow: 1;
         justify-content: space-between;
         align-items: center;
@@ -210,7 +214,7 @@ button {
 
 /* footer section */
 .footer { 
-    padding: 15px;
+    padding: 1%;
     display: flex;
     justify-content: center;
     align-items: center;
