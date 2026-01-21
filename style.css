@@ -3,7 +3,8 @@
 /* globals */
 body {
     font-family: "Roboto", sans-serif;
-    margin: 80px;
+    height: 100vh;
+    margin: 0px 80px;
     padding: 15px;
     background-color: #1F2937;
     color: #f9FAF8;
