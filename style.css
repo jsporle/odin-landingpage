@@ -18,6 +18,19 @@ ul {
     list-style-type: none;
 }
 
+button, .cta-card {
+    background-color: #3882f6;
+    color: #f9FAF8;
+}
+
+button {
+    width: 80px;
+    height: 30px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+}
+
 /* header section */
 .header {
     display: flex;
@@ -67,7 +80,7 @@ ul {
 /* information section */
     .info-section {
         padding: 25px 25px;
-        background-color: #ffffff;
+        background-color: #f9FAF8;
         color: #1F2937;
     }
 
