@@ -57,26 +57,40 @@ button {
 .hero-section {
     margin-top: 50px;
     display: flex;
+    flex-flow: row wrap;
+    flex-grow: 1;
+    justify-content: center;
     align-items: center;
 }
 
-    .hero-main-text {
-        font-size: 48px;
-        font-weight: 900;
+    .hero-left{
+        flex: 1 1;
     }
 
-    .hero-secondary-text {
-        font-size: 18px;
-        color: #E5E7EB;
+        .hero-main-text {
+            font-size: 48px;
+            font-weight: 900;
+        }
+
+        .hero-secondary-text {
+            font-size: 18px;
+            color: #E5E7EB;
+        }
+
+    .hero-right {
+        display: flex;
+        margin: auto;
     }
 
-    .hero-image {
-        margin: 24px;
-        text-align: center;
-        min-width: 300px;
-        min-height: 150px;
-        background-color: #a3a3a383;
-    }
+        .hero-image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 24px;
+            width: 500px;
+            height: 200px;
+            background-color: #a3a3a383;
+        }
 
 /* information section */
     .info-section {
