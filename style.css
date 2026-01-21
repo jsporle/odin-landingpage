@@ -4,10 +4,31 @@ body {
     font-family: "Roboto", sans-serif;
     margin: 0px;
     padding: 0px;
+    background-color: #1F2937;
 }
+
+.header {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.header-left {
+    font-size: 24px;
+    color: #f9FAF8;
+    font-weight: 900;
+}
+
+.header-right {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 25px;
+}
+
 
 a {
     text-decoration: none;
+    color: #f9FAF8;
 }
 
 ul {
